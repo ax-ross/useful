@@ -1,0 +1,6 @@
+alias pmi='sudo pacman -Syu'
+alias pms='pacman -Ss'
+alias pmr='sudo pacman -Rsu'
+alias pmu='sudo pacman -Syu'
+alias pml='pacman -Ql'
+alias pmc='sudo pacman -Rs $(pacman -Qdtq) && sudo pacman -Sc'
